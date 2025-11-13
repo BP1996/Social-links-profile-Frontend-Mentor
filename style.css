@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bg{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background: hsl(0, 0%, 8%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+h1,h2,h3,p,span,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.container{
+    width: 450px;
+    background: hsl(0, 0%, 12%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container img{
+    width: 100px;
+    border-radius: 51%;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.localizacao{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.875rem;
+}
+
+.descricao{
+    margin: 40px 0px 30px 0px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links li{
+    background: hsl(0, 0%, 20%);
+    padding: 15px;
+    border-radius: 6px;
+    transition: 0.1s;
+}
+
+.links li:hover{
+    background: hsl(75, 94%, 57%);
+}
+
+.links-itens a{
+    color: white;
+}
